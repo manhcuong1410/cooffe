@@ -1,0 +1,187 @@
+
+
+ 
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: rgb(12, 11, 11) !important;
+  }
+
+  .slider{
+  opacity: 0.9;
+  animation: slider 1s;
+  }
+  @keyframes slider{
+    from {opacity: .4;}
+    to {opacity: 1;}
+  }
+  .slider .text-content{
+    position: absolute;
+    bottom: 120px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+  .slider .text-heading{
+    font-size: 24px;
+    font-style:oblique;
+  }
+  .slider .text-description{
+    font-size: 17px;
+    font-style:oblique;
+  }
+  #prev{
+    position: absolute;
+    color: white;   
+    top: 43%;
+    left: 0;
+    cursor: pointer;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+  }
+  #next{
+    position: absolute;
+    color: white;
+    top: 43%;
+    right: 0;
+    cursor: pointer;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.6s ease;
+    border-radius: 0 10px 10px 0;
+    user-select: none;
+  }
+  #prev:hover, #next:hover{
+   background-color: rgba(0, 0, 0, 0.5);
+  }
+  .container {
+    padding: 80px 120px;
+  }
+  /* .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px; */
+    /* width: 80%; */
+    /* height: 100%; */
+    /* opacity: 1; */
+  /* }  */
+  /* .person:hover {
+    border-color: #f1f1f1;
+  }  */
+  .bg-1 {
+    background: #ebebf0;
+    color: #bdbdbd;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .input-group{
+    margin-top: 40px;
+  } 
+
+ /*Xóa các đường viền được làm tròn khỏi danh sách */
+.list-group-item:first-child { /*:first-child được dùng để chọn thành phần đầu tiên trong danh sách */
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+
+.list-group-item:last-child {  /* last-child sẽ được dùng để chọn thành phần cuối cùng trong danh sách. */
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+ /* Xóa đường viền và thêm phần đệm vào hình thu nhỏ  */
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+  width: 80%;
+  /* height: 20%; */
+  margin-left: 28px;
+  /* justify-content:first baseline; */
+}
+
+.thumbnail p {
+margin-top: 20px;
+  color: #555;
+}
+
+/* Các nút màu đen có thêm đệm và không có đường viền tròn */
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s; /*để tạo ra các hiệu ứng chuyển đổi đẹp mắt trên website một cách dễ dàng*/
+}
+
+/* Khi di chuột, màu của .btn sẽ chuyển sang màu trắng với văn bản màu đen  */
+.btn:hover, .btn:focus {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+}
+h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;      
+  font-size: 20px;
+ color: rgb(12, 11, 11);
+}
+
+.btn.pull-right{
+  margin-top: 10px;
+}
+
+.ft1{
+  background: rgba(26, 15, 13, 0.767); 
+  /* line-height: 40px; line-height: 40px; */
+   margin-top: 5px; 
+   text-align: center;
+}
+.fa-brands{
+  font-size: 3rem;
+   color: rgb(194, 191, 189);  
+}
+
+

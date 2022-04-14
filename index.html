@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage">CoFFeGNOUC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myPage">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">DRINK
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">machine coffee</a></li>
+              <li><a href="#">craft coffee</a></li>
+              <li><a href="#">fruit Smoothie</a></li> 
+            </ul>
+          </li>
+          <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- -- -->
+
+<div class="slider">
+   <div> <img id="sliderr" src="img/slide5.jpg" alt="" width="100%" height="700px"></div>
+    <div class="text-content">
+      <h2 class="text-heading">CoFFeGNOUC</h2>
+      <div class="text-description">The more you give than you receive, the more you will receive ^^</div>
+    </div>
+</div>
+<i id="prev" onclick="prev()" class="fa-solid fa-chevron-left"></i>
+<i id="next" onclick="next()" class="fa-solid fa-angle-right"></i>
+
+<!-- Drink -->
+ 
+<div class="bg-1">
+    <div class="container">
+      <h3 class="text-center" style="color: black;" >Drinks</h3>
+      <p class="text-center">Please choose a drink and enjoy it ^^</p>
+      <form>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Tìm kiếm đồ uống">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="container-fluid">
+      <div class="row text-center">
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf3.jpg">
+              <p><strong>Cappuccino</strong></p>
+              <p>4$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf2.jpg">
+              <p><strong>Black Coffe</strong></p>
+              <p>2$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf4.jpg">
+              <p><strong>Tea</strong></p>
+              <p>3$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf5.jpg">
+              <p><strong>Americano</strong></p>
+              <p>4$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf6.jpg">
+              <p><strong>Orange juice</strong></p>
+              <p>5$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf7.jpg" alt="San Francisco">
+              <p><strong>strawberry cream chee smoothie</strong></p>
+              <p>6$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf8.jpg" alt="San Francisco">
+              <p><strong>Chocolate</strong></p>
+              <p>3$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="thumbnail">
+              <img src="img/cf9.jpg">
+              <p><strong>Matcha</strong></p>
+              <p>4$</p>
+              <button class="btn">Choose</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- --- -->
+<div class="container-fluid"> 
+  <img src="img/cf11.jpg" alt="" width="100%" height="400px">
+   <div class="ing" style="position: absolute; color: rgb(231, 127, 8); font-size: 30px; top: 1800px; margin-left: 100px;">
+    <em><p>Open: Mon ~ Sun</p></em>
+    <em><p>Time: 8Am ~ 23Pm</p></em>
+  </div>
+</div>
+  <!-- <footer> -->
+  <div class="container-fluid">
+    <div class="row ft1">
+      <div style="padding-top: 9px;">
+      <a href="#"><i class="fa-brands fa-facebook" >&ensp;</i></a> 
+      <a href="#"><i class="fa-brands fa-twitter-square" >&ensp;</i></a>
+      <a href="#"><i class="fa-brands fa-instagram" >&ensp;</i></a>
+      <a href="#"><i class="fa-brands fa-github" >&ensp;</i></a>
+      <a href="#"><i class="fa-brands fa-tiktok"></i></a> 
+      </div>
+    </div>
+  </div>
+<!-- </footer> -->
+
+
+
+<script>
+
+var images = [
+      "img/slide5.jpg",  
+      "img/cf12.jpg",
+      "img/cf13.jpg"
+    ];
+    var num = 0;
+
+    function next() {
+        var sliderr = document.getElementById("sliderr");
+        num++;
+        if(num >= images.length) {
+            num = 0;
+        }
+        sliderr.src = images[num];
+    }
+
+    function prev() {
+        var sliderr = document.getElementById("sliderr");
+        num--;
+        if(num < 0) {
+            num = images.length-1;
+        }
+        sliderr.src = images[num];
+    }
+</script>
+</body>
+</html>
